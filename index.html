@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="styles.css">
+
+
+
+<script type="text/javascript"> 
+function scrollToSection(id) {
+  document.querySelector(`#${id}`).scrollIntoView({behavior: 'smooth'});
+}
+</script>
+
+
+
+</head>
+
+<body>
+
+<section style="height: 100%" id="section1">
+    <div class="container">
+        <div class="navBar">
+            <h3 class="navItem"><a onclick='scrollToSection("section1");'>Home</a></h3>
+            <h3 class="navItem"><a onclick='scrollToSection("section2");'>Portfolio</a></h3>
+            <h3 class="navItem"><a onclick='scrollToSection("section2");'>Experience</a></h3>
+            <h3 class="navItem"><a onclick='scrollToSection("section2");'>Contact</a></h3>
+        </div>
+            <div class="text">
+                <h1>ARJUN AGNIHOTRI</h1>
+                <p class="caption">designer / developer</p>
+            </div>
+</section>
+</div>
+
+<!-- portfolio -->
+<section  id="section2">
+    <div class="container2">
+        <div class="boxContainer">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+</section>
+
+</body>
+</html>
